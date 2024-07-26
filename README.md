@@ -33,7 +33,7 @@ OpenBookAI integrates various state-of-the-art AI models to provide a unified an
 ### Links
 
 - [Demo Video](#) ()
-- [Project Repository](https://github.com/Sabari2005/OpenBookAI) (Replace with actual link)
+- [Project Repository](https://github.com/Sabari2005/OpenBookAI)
 
 ### Features
 
