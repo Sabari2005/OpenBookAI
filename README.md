@@ -23,15 +23,17 @@ OpenBookAI integrates various state-of-the-art AI models to provide a unified an
 
 ### Screenshot
 
-#### OpenBookAI Query Interface
-![screenshot_query_interface](/screenshots/openbookai_screenshot1.png)
-#### OpenBookAI Analysis Results
-![screenshot_analysis_results](/screenshots/openbookai_screenshot2.png)
+#### OpenBookAI Interface
+![screenshot_interface](/screenshots/OpenBookAI_interface.png)
+#### OpenBookAI Query1 Interface
+![screenshot_query1_interface](/screenshots/OpenBookAI_explaining_OSI_Layer.png)
+#### OpenBookAI Query2 Interface
+![screenshot_query2_interface](/screenshots/OpenBookAI_explaining_CPU_Scheduling.png)
 
 ### Links
 
-- [Live Demo](#) (Replace with actual link)
-- [Project Repository](https://github.com/yourusername/OpenBookAI) (Replace with actual link)
+- [Demo Video](#) ()
+- [Project Repository](https://github.com/Sabari2005/OpenBookAI) (Replace with actual link)
 
 ### Features
 
@@ -58,7 +60,7 @@ OpenBookAI
 │   └── Jupyter Notebooks for Model Training and Testing
 │
 └── requirements.txt
-
+```
 
 ## Built With
 - Python
@@ -83,7 +85,7 @@ OpenBookAI
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/OpenBookAI.git
+    git clone https://github.com/Sabari2005/OpenBookAI.git
     cd OpenBookAI
     ```
 
@@ -110,12 +112,18 @@ OpenBookAI
     ```
 
 ### Access the application:
-- Open your web browser and go to the provided ngrok URL.
+- Open your web browser and go to the provided ngrok URL or localhost URL.
 
 ## Author
-- [LinkedIn - Your Name](https://www.linkedin.com/in/your-profile)
-- [GitHub - yourusername](https://github.com/yourusername)
+
+- Website - [SABARI VADIVELAN](https://in.linkedin.com/in/sabari-vadivelan-s-637667258)
+- Website - [UVARAJAN_D](https://www.linkedin.com/in/uvarajan-dev/)
+- Website - [KAMAL M](https://www.linkedin.com/in/kamal-m-857925258/)
+- Website - [SARATHI S](https://www.linkedin.com/in/sarathi-senthil-547877258/)
 
 ## Contact Developer
-- Email: your.email@example.com
-- Discord: Your Discord Username
+
+- Discord - [SABARI VADIVELAN](https://discord.com/users/1102493010538799225)
+- Discord - [UVARAJAN](https://discord.com/users/1084096662412210376)
+- Discord - [KAMAL](https://discord.com/users/1086220089684152340) 
+- Discord - [SARATHI](https://discord.com/users/1187035919048527902) 
