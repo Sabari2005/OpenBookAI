@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OPEN BOOK AI</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://kit.fontawesome.com/c472cc2087.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <div class="sidebar">
+            <div id="myButton"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <div class="name">
+            <span>OpenBookAI</span>
+        </div>
+    </div>
+    <div class="contain">
+        <div class="sidebar_content" id="sidebar_content">
+            <div class="today">    
+                <span>Today</span>
+            </div>
+            <div class="topic">
+                <span>OSI layer</span>
+            </div>
+        </div>
+        <div class="whole_contain">
+            <div class="box1" id="messageFormeight">
+                <!-- Content here -->
+            </div>
+            <div class="box2">
+                <form id="messageArea">
+                    <input class="input_style" type="text" id="text" name="msg" placeholder="Type your message..." autocomplete="off">
+                    <button type="submit" id="send"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+            <div class="copyright">
+                <span>Copyright &copy; OpenBook AI</span>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $("#messageArea").on("submit", function(event) {
+                event.preventDefault();
+                
+                const date = new Date();
+                const hour = date.getHours();
+                const minute = date.getMinutes();
+                const str_time = hour + ":" + (minute < 10 ? "0" : "") + minute;
+                
+                var rawText = $("#text").val();
+                var userHtml = '<div class="sender"><div class="content_sender"><span>' + rawText + '</span></div><div class="account"><i class="fa-regular fa-user"></i></div></div>';
+                
+                $("#text").val("");
+                $("#messageFormeight").append(userHtml);
+
+                $.ajax({
+                    data: {
+                        msg: rawText
+                    },
+                    type: "POST",
+                    url: "/get",
+                }).done(function(data) {
+                    var botHtml = '<div class="receiver"><div class="account_bot"><img src="../static/img/logo.jpg"></div><div class="content_receiver"><span>' + data.text + '</span><div class="image_contain">';
+                    
+                    data.images.forEach(function(imageUrl) {
+                        botHtml += '<a href="' + imageUrl + '" target="_bank"><img src="' + imageUrl + '" class="response_image"></a>';
+                    });
+                    
+                    botHtml += '</div></div></div>';
+                    $("#messageFormeight").append($.parseHTML(botHtml));
+                }).fail(function() {
+                    console.error("Error sending message.");
+                });
+            });
+        });
+        document.getElementById("myButton").addEventListener("click", function() {
+                       var div = document.getElementById("sidebar_content");
+                       div.classList.toggle("sidebar_content_add");
+                   });
+    </script>
+
+</body>
+</html>
