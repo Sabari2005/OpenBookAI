@@ -29,6 +29,8 @@ OpenBookAI integrates various state-of-the-art AI models to provide a unified an
 ![screenshot_query1_interface](/screenshots/OpenBookAI_explaining_OSI_Layer.png)
 #### OpenBookAI Query2 Interface
 ![screenshot_query2_interface](/screenshots/OpenBookAI_explaining_CPU_Scheduling.png)
+#### OpenBookAI Architecture
+![screenshot_openbookai_architecture](/screenshots/OpenBookAIArchitecture.png)
 
 ### Links
 
