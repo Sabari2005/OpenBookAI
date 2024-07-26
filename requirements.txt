@@ -1,0 +1,13 @@
+bert-extractive-summarizer
+transformers
+torch
+spacy
+numpy
+pandas
+scikit-learn
+sentence-transformers
+textstat
+flask
+pyngrok
+requests
+markdown2
