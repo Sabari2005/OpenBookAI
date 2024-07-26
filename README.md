@@ -58,3 +58,64 @@ OpenBookAI
 │   └── Jupyter Notebooks for Model Training and Testing
 │
 └── requirements.txt
+
+
+## Built With
+- Python
+- Jupyter Notebook
+- NumPy
+- Pandas
+- scikit-learn (sklearn)
+- Sentence Transformers
+- Textstat
+- Transformers
+- spaCy
+- Flask
+- pyngrok
+
+## Installation
+
+### Prerequisites
+- Python 3.7 or higher
+- pip (Python package installer)
+
+### Setup
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/yourusername/OpenBookAI.git
+    cd OpenBookAI
+    ```
+
+2. **Install the required dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Download the required models:**
+    ```python
+    import nltk
+    nltk.download('punkt')
+    ```
+
+4. **Run the development server:**
+    ```bash
+    jupyter notebook
+    ```
+
+5. **Set up ngrok for secure tunneling:**
+    ```bash
+    ngrok authtoken your_ngrok_authtoken
+    ngrok http 5000
+    ```
+
+### Access the application:
+- Open your web browser and go to the provided ngrok URL.
+
+## Author
+- [LinkedIn - Your Name](https://www.linkedin.com/in/your-profile)
+- [GitHub - yourusername](https://github.com/yourusername)
+
+## Contact Developer
+- Email: your.email@example.com
+- Discord: Your Discord Username
