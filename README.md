@@ -121,11 +121,10 @@ OpenBookAI
 - Website - [SABARI VADIVELAN](https://in.linkedin.com/in/sabari-vadivelan-s-637667258)
 - Website - [UVARAJAN_D](https://www.linkedin.com/in/uvarajan-dev/)
 - Website - [KAMAL M](https://www.linkedin.com/in/kamal-m-857925258/)
-- Website - [SARATHI S](https://www.linkedin.com/in/sarathi-senthil-547877258/)
 
 ## Contact Developer
 
 - Discord - [SABARI VADIVELAN](https://discord.com/users/1102493010538799225)
 - Discord - [UVARAJAN](https://discord.com/users/1084096662412210376)
 - Discord - [KAMAL](https://discord.com/users/1086220089684152340) 
-- Discord - [SARATHI](https://discord.com/users/1187035919048527902) 
+
